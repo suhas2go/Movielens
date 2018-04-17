@@ -17,7 +17,11 @@ encoder.
 We first use collaborative filtering - implicit characteristics based on similarity of users’ preferences
 to those of other users to fill the ratings matrix (users x movies). Then this is inputed into the autoencoder which encodes and decodes the ratings, the layers in middle reduce the features to lower
 dimension.
- 
+
+<p align="center"> 
+<img src=https://github.com/suhas2go/Movielens/blob/master/res/autoencoder_img.jpg>
+</p>
+
 ### Possible Improvements
  
  * Increase number of layers for gradual reduction of features.
